@@ -5321,9 +5321,9 @@
       }
     },
     "flow-bin": {
-      "version": "0.119.0",
-      "resolved": "https://registry.npmjs.org/flow-bin/-/flow-bin-0.119.0.tgz",
-      "integrity": "sha512-fCVv++rjBsx/q6YVeB3F+A/owztjUO5PyBLwhGZdK5igVmiFQ8RKBTR9T2mb+SQRLZJJhl/xwPLhNzr3dBba6w==",
+      "version": "0.259.1",
+      "resolved": "https://registry.npmjs.org/flow-bin/-/flow-bin-0.259.1.tgz",
+      "integrity": "sha512-c5vsjZ19tWGO1ldc3gNmrH6eDdB0W428xPluIDB8UNm1eMCsBM/otZUoE3dmZuWUg/+5/1eKc28Z57/JUVVslQ==",
       "dev": true
     },
     "flow-coverage-report": {
