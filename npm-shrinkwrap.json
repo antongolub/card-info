@@ -5380,19 +5380,13 @@
         }
       }
     },
-    "flow-parser": {
-      "version": "0.119.0",
-      "resolved": "https://registry.npmjs.org/flow-parser/-/flow-parser-0.119.0.tgz",
-      "integrity": "sha512-P49kGSnCII6c5/P4QsVDtoam83zrXrdq4EUJDVOpbeURy48RM8BOboKcEfFHS1xnNID01UXu8Hf60b+m23T81w==",
-      "dev": true
-    },
     "flow-remove-types": {
-      "version": "2.119.0",
-      "resolved": "https://registry.npmjs.org/flow-remove-types/-/flow-remove-types-2.119.0.tgz",
-      "integrity": "sha512-kQzmMyl+gRqA2hU4hO/79hOT2dU9cAT37izRukyjqnItBlrZ1J4SYeqwnkDeOx4j2Azg19CxWNKullVt2kGZFA==",
+      "version": "2.259.1",
+      "resolved": "https://registry.npmjs.org/flow-remove-types/-/flow-remove-types-2.259.1.tgz",
+      "integrity": "sha512-H+ww7Q6c4xXFAoZGZnC37FJmA9Zzu3UpQ96q3/geCQiaZiTXmM7ZeN53DYpu4be8cvPEp15K0SZTOtaiGoWU5A==",
       "dev": true,
       "requires": {
-        "flow-parser": "^0.119.0",
+        "hermes-parser": "0.25.1",
         "pirates": "^3.0.2",
         "vlq": "^0.2.1"
       }
@@ -7117,6 +7111,21 @@
             "is-buffer": "^1.1.5"
           }
         }
+      }
+    },
+    "hermes-estree": {
+      "version": "0.25.1",
+      "resolved": "https://registry.npmjs.org/hermes-estree/-/hermes-estree-0.25.1.tgz",
+      "integrity": "sha512-0wUoCcLp+5Ev5pDW2OriHC2MJCbwLwuRx+gAqMTOkGKJJiBCLjtrvy4PWUGn6MIVefecRpzoOZ/UV6iGdOr+Cw==",
+      "dev": true
+    },
+    "hermes-parser": {
+      "version": "0.25.1",
+      "resolved": "https://registry.npmjs.org/hermes-parser/-/hermes-parser-0.25.1.tgz",
+      "integrity": "sha512-6pEjquH3rqaI6cYAXYPcz9MS4rY6R4ngRgrgfDshRptUZIc3lw0MCIJIGDj9++mfySOuPTHB4nrSW99BCvOPIA==",
+      "dev": true,
+      "requires": {
+        "hermes-estree": "0.25.1"
       }
     },
     "home-or-tmp": {
